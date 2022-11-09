@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "serviceName":"Home Interior",
+        "duration": "10-15 Days",
+        "cost": 1500,
+        "features": [
+            "Elegant Design",
+            "Soothing Colors",
+            "Luminous Lighting",
+            "Decorative Looks",
+            "Practicallity and Functionality"
+        ],
+        "images": {
+            "img1": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+            "img2": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "img3": "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "img4": "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        "description": "Modern home interiors Design are suave and sophisticated but they can lack a sense of fun. This luxury interior comes complete with a youthful personality, which is displayed through colorful art pieces. Modern home interiors can come in any style such as— rustic, industrial, minimalist, contemporary, or traditional; Browse through this portfolio of amazing interiors that features ideas for all the rooms of your home. Whether you can prefer colors and patterns or a neutral palette, you’ll find plenty of inspiration for refreshing and renewing your living space. <br/> For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector- overarching links to gather knowledge and to learn from each other"
+    },
+    {
+        "id": 2,
+        "serviceName":"Repaint Your Home",
+        "duration": "10-15 Days",
+        "cost": 1500,
+        "features": [
+            "Elegant Design",
+            "Soothing Colors",
+            "Luminous Lighting",
+            "Decorative Looks",
+            "Practicallity and Functionality"
+        ],
+        "images": {
+            "img1": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+            "img2": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "img3": "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "img4": "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        "description": "Modern home interiors Design are suave and sophisticated but they can lack a sense of fun. This luxury interior comes complete with a youthful personality, which is displayed through colorful art pieces. Modern home interiors can come in any style such as— rustic, industrial, minimalist, contemporary, or traditional; Browse through this portfolio of amazing interiors that features ideas for all the rooms of your home. Whether you can prefer colors and patterns or a neutral palette, you’ll find plenty of inspiration for refreshing and renewing your living space. <br/> For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector- overarching links to gather knowledge and to learn from each other"
+    },
+    {
+        "id": 3,
+        "serviceName":"Office Interior",
+        "duration": "10-15 Days",
+        "cost": 1500,
+        "features": [
+            "Elegant Design",
+            "Soothing Colors",
+            "Luminous Lighting",
+            "Decorative Looks",
+            "Practicallity and Functionality"
+        ],
+        "images": {
+            "img1": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+            "img2": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "img3": "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "img4": "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        "description": "Modern home interiors Design are suave and sophisticated but they can lack a sense of fun. This luxury interior comes complete with a youthful personality, which is displayed through colorful art pieces. Modern home interiors can come in any style such as— rustic, industrial, minimalist, contemporary, or traditional; Browse through this portfolio of amazing interiors that features ideas for all the rooms of your home. Whether you can prefer colors and patterns or a neutral palette, you’ll find plenty of inspiration for refreshing and renewing your living space. <br/> For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector- overarching links to gather knowledge and to learn from each other"
+    },
+    {
+        "id": 4,
+        "serviceName":"Restaurant's Interior",
+        "duration": "10-15 Days",
+        "cost": 1500,
+        "features": [
+            "Elegant Design",
+            "Soothing Colors",
+            "Luminous Lighting",
+            "Decorative Looks",
+            "Practicallity and Functionality"
+        ],
+        "images": {
+            "img1": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+            "img2": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "img3": "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "img4": "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        "description": "Modern home interiors Design are suave and sophisticated but they can lack a sense of fun. This luxury interior comes complete with a youthful personality, which is displayed through colorful art pieces. Modern home interiors can come in any style such as— rustic, industrial, minimalist, contemporary, or traditional; Browse through this portfolio of amazing interiors that features ideas for all the rooms of your home. Whether you can prefer colors and patterns or a neutral palette, you’ll find plenty of inspiration for refreshing and renewing your living space. <br/> For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector- overarching links to gather knowledge and to learn from each other"
+    },
+    {
+        "id": 5,
+        "serviceName":"Conference Room Design",
+        "duration": "10-15 Days",
+        "cost": 1500,
+        "features": [
+            "Elegant Design",
+            "Soothing Colors",
+            "Luminous Lighting",
+            "Decorative Looks",
+            "Practicallity and Functionality"
+        ],
+        "images": {
+            "img1": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+            "img2": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "img3": "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "img4": "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        "description": "Modern home interiors Design are suave and sophisticated but they can lack a sense of fun. This luxury interior comes complete with a youthful personality, which is displayed through colorful art pieces. Modern home interiors can come in any style such as— rustic, industrial, minimalist, contemporary, or traditional; Browse through this portfolio of amazing interiors that features ideas for all the rooms of your home. Whether you can prefer colors and patterns or a neutral palette, you’ll find plenty of inspiration for refreshing and renewing your living space. <br/> For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector- overarching links to gather knowledge and to learn from each other"
+    },
+    {
+        "id": 6,
+        "serviceName":"Independent Floor Design",
+        "duration": "10-15 Days",
+        "cost": 1500,
+        "features": [
+            "Elegant Design",
+            "Soothing Colors",
+            "Luminous Lighting",
+            "Decorative Looks",
+            "Practicallity and Functionality"
+        ],
+        "images": {
+            "img1": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+            "img2": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "img3": "https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+            "img4": "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80"
+        },
+        "description": "Modern home interiors Design are suave and sophisticated but they can lack a sense of fun. This luxury interior comes complete with a youthful personality, which is displayed through colorful art pieces. Modern home interiors can come in any style such as— rustic, industrial, minimalist, contemporary, or traditional; Browse through this portfolio of amazing interiors that features ideas for all the rooms of your home. Whether you can prefer colors and patterns or a neutral palette, you’ll find plenty of inspiration for refreshing and renewing your living space. <br/> For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector- overarching links to gather knowledge and to learn from each other"
+    }
+]
