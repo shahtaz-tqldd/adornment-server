@@ -49,6 +49,26 @@ async function run(){
             const result = await reviewCollection.insertOne(review)
             res.send(result)
         })
+
+        app.get('/my-reviews', async(req, res)=>{
+            let query = {}
+            if(req.query.email){
+                query ={
+                    reviewUserEmail: req.query.email
+                }
+            }
+            const cursor = reviewCollection.find(query)
+            const myReviews = await cursor.toArray();
+            res.send(myReviews);
+        })
+
+        app.delete('/reviews/:id', async(req, res)=>{
+            const id = req.params.id
+            const query = {_id: ObjectId(id)};
+            const result = await reviewCollection.deleteOne(query)
+            res.send(result)
+        })
+
     }
     finally{}
 }
