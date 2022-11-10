@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 require('dotenv').config()
 
 // middleware
@@ -20,7 +20,9 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run(){
     try{
         const serviceCollection = client.db("adornment").collection("services");
-    
+        const reviewCollection = client.db("adornment").collection("reviews");
+        
+        // service data
         app.get('/services', async(req, res)=>{
             const cursor = serviceCollection.find({})
             const services = await cursor.toArray()
@@ -28,11 +30,24 @@ async function run(){
         })
 
         app.get('/services/:id', async(req, res)=>{
-            const id = parseInt(req.params.id)
-            const cursor = serviceCollection.find({})
-            const services = await cursor.toArray()
-            const service = services.find(service => service.id === id)
+            const id = req.params.id
+            const query = {_id: ObjectId(id)}
+            const service = await serviceCollection.findOne(query)
             res.send(service)
+        })
+
+        // review data
+
+        app.get('/reviews', async(req, res)=>{
+            const cursor = reviewCollection.find({})
+            const reviews = await cursor.toArray()
+            res.send(reviews)
+        })
+
+        app.post('/reviews', async(req, res)=>{
+            const review = req.body;
+            const result = await reviewCollection.insertOne(review)
+            res.send(result)
         })
     }
     finally{}
