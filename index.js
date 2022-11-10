@@ -13,19 +13,28 @@ app.use(express.json());
 
 const uri = `mongodb+srv://${process.env.DB_username}:${process.env.DB_password}@cluster0.1uor19o.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-client.connect(err => {
-  const collection = client.db("adornment").collection("services");
-  // perform actions on the collection object
-  console.log('inside collections')
-});
+
+
+async function run(){
+    try{
+        const serviceCollection = client.db("adornment").collection("services");
+    
+        app.get('/services', async(req, res)=>{
+            const cursor = serviceCollection.find({})
+            const services = await cursor.toArray()
+            res.send(services)
+        } )
+    }
+    finally{}
+}
+
+run().catch(err=> console.error(err))
 
 
 app.get('/', (req, res)=>{
     res.send('Adornment Server is Running...')
 })
-app.get('/services', (req, res)=>{
-    res.send(services)
-})
+
 
 app.get('/services/:id', (req, res)=>{
     const id = parseInt(req.params.id)
