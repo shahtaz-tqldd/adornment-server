@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const services = require('./services.json');
 const port = process.env.PORT || 5000;
+require('dotenv').config()
 
 // middleware
 app.use(cors());
@@ -13,6 +14,12 @@ app.get('/', (req, res)=>{
 })
 app.get('/services', (req, res)=>{
     res.send(services)
+})
+
+app.get('/services/:id', (req, res)=>{
+    const id = parseInt(req.params.id)
+    const service = services.find(service => service.id === id)
+    res.send(service)
 })
 
 app.listen(port, ()=>{
